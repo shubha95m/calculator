@@ -2,6 +2,7 @@
   "name": "Standard Calculator",
   "description": "A clean, responsive, and tactile basic calculator with history and keyboard support.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
-
