@@ -12,6 +12,7 @@ import { Operator, HistoryItem, ThemeMode } from './types';
 import { calculate, formatResultToString } from './utils/calculator';
 import { playKeyClick } from './utils/audio';
 import { History, Volume2, VolumeX, Moon, Sun, Monitor, Keyboard } from 'lucide-react';
+import { PWAInstallButton } from './components/PWAInstallButton';
 
 const MAX_DIGITS = 15;
 
@@ -409,6 +410,9 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-1 sm:gap-1.5">
+            {/* In-app PWA install button */}
+            <PWAInstallButton theme={theme} />
+
             {/* Keyboard shortcut help */}
             <button
               type="button"

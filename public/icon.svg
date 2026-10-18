@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1f26"/>
+      <stop offset="100%" stop-color="#0b0d10"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#142018"/>
+      <stop offset="100%" stop-color="#18271e"/>
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Shell -->
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="url(#bgGrad)" stroke="#2e3542" stroke-width="6" filter="url(#shadow)"/>
+
+  <!-- Screen / Display Bar -->
+  <rect x="76" y="76" width="360" height="96" rx="20" fill="url(#screenGrad)" stroke="#2e4835" stroke-width="3"/>
+  <!-- Display Text / LCD Numbers preview -->
+  <text x="412" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="700" fill="#7bfb9d" text-anchor="end">1,234.56</text>
+
+  <!-- Button Row 1 -->
+  <rect x="76" y="196" width="75" height="52" rx="14" fill="#374151"/>
+  <text x="113" y="232" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f3f4f6" text-anchor="middle">AC</text>
+
+  <rect x="171" y="196" width="75" height="52" rx="14" fill="#374151"/>
+  <text x="208" y="232" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f3f4f6" text-anchor="middle">±</text>
+
+  <rect x="266" y="196" width="75" height="52" rx="14" fill="#374151"/>
+  <text x="303" y="232" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f3f4f6" text-anchor="middle">%</text>
+
+  <rect x="361" y="196" width="75" height="52" rx="14" fill="url(#amberGrad)"/>
+  <text x="398" y="232" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">÷</text>
+
+  <!-- Button Row 2 -->
+  <rect x="76" y="262" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="113" y="298" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">7</text>
+
+  <rect x="171" y="262" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="208" y="298" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">8</text>
+
+  <rect x="266" y="262" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="303" y="298" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">9</text>
+
+  <rect x="361" y="262" width="75" height="52" rx="14" fill="url(#amberGrad)"/>
+  <text x="398" y="298" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">×</text>
+
+  <!-- Button Row 3 -->
+  <rect x="76" y="328" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="113" y="364" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">4</text>
+
+  <rect x="171" y="328" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="208" y="364" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">5</text>
+
+  <rect x="266" y="328" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="303" y="364" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">6</text>
+
+  <rect x="361" y="328" width="75" height="52" rx="14" fill="url(#amberGrad)"/>
+  <text x="398" y="364" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">−</text>
+
+  <!-- Button Row 4 -->
+  <rect x="76" y="394" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="113" y="430" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">1</text>
+
+  <rect x="171" y="394" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="208" y="430" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">0</text>
+
+  <rect x="266" y="394" width="75" height="52" rx="14" fill="#1f2937"/>
+  <text x="303" y="430" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">.</text>
+
+  <rect x="361" y="394" width="75" height="52" rx="14" fill="url(#emeraldGrad)"/>
+  <text x="398" y="430" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">=</text>
+</svg>
